@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px rgba(0, 0%, 0%, 0.78);
+}
+
+.childContainer {
+  width: fit-content;
+  height: 200px;
+  margin: 40px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.profile{
+  border-radius: 50%
+}
+
+.bluecolor {
+  color: rgb(16, 16, 177);
+}
+
+
+
+.NavBar{
+  background-color: pink;
+  color: black;
+}
+
+.Header-buttons{
+
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 20px;
+  justify-content: center;
+  margin: left 10px;
+  gap: 15px;
+}
+
+#contact{
+  font: bold;
+  color: blue;
+
+}
+
+#about{
+  font: bold;
+  color: brown;
+
+}
+
+.footer{
+  background-color: skyblue;
+  color: black;
+
+}
+
+.footer-buttons{
+  
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 20px;
+  justify-content: center;
+  margin: left 10px;
+  gap: 15px;
+
+}
+
